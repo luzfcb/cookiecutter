@@ -23,7 +23,7 @@ matrix:
 script: tox -e $TOX_ENV
 
 install:
-    - pip install tox
+    - pip install tox --upgrade
 
 
 after_success:
